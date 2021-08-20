@@ -102,3 +102,9 @@
     max-width: 500px;
   }
 }
+
+@media (max-width: 425px) {
+  .news-item__title {
+    font-size: 12px;
+  }
+}
