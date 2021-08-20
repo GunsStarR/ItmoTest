@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+  color: #222222;
+}
+
+.content {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@media (max-width: 1220px) {
+  .content {
+    box-sizing: border-box;
+    max-width: 1220px;
+  }
+}
